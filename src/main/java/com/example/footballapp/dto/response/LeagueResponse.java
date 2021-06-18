@@ -1,10 +1,10 @@
-package com.example.footballapp.dto;
+package com.example.footballapp.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
-public class LeagueDTO {
+public class LeagueResponse {
     @JsonProperty("id")
     private Long id;
 
