@@ -1,4 +1,4 @@
-package com.example.footballapp.model.entity;
+package com.example.footballapp.entity;
 
 import lombok.Data;
 
