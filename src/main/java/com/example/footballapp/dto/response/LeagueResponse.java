@@ -11,6 +11,9 @@ public class LeagueResponse {
     @JsonProperty("name")
     private String name;
 
+    @JsonProperty("type")
+    private String type;
+
     @JsonProperty("logo")
     private String logo;
 }
