@@ -1,6 +1,7 @@
 package com.example.footballapp.service.api;
 
 import com.example.footballapp.dto.response.LeagueResponse;
+import com.example.footballapp.dto.response.TeamResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -56,5 +57,4 @@ public class APIService {
         LinkedHashMap<String, Object> data = (LinkedHashMap<String, Object>) responseOfBodyRequest.get(0);
         return objectMapper.convertValue(data.get("league"), LeagueResponse.class);
     }
-
 }
